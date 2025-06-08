@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transflower web</title>
+    </head>
+
+    <body>
+        <h1>Contact Us </h1>
+        
+        <a href="/">Home</a>| <a href="/about.html">AboutUs</a> | <a href="/contact.html">ContactUs</a>| <a href="login.html">sign In</a>
+        <hr/>
+
+
+         <p id="para1"> This is simple sentence....</p>
+         <p id="para2"> Microsoft India Pvt. Ltd </p>
+         <button onclick ="onButtonClick()"> change content....</button>
+         <script>
+            var onButtonClick=function(){
+                //DOM
+               var element= document.getElementById("para2")
+               element.innerHTML="Transflower learning Pvt. Ltd";
+            }
+            </script>
+    </body>
+</html>

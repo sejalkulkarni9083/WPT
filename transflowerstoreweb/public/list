@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transflower web</title>
+    </head>
+
+    <body>
+        <h1>Online Flower Shop</h1>
+
+        <a href="/">Home</a>| <a href="/about.html">Aboutus</a> | <a href="/contact.html">ContactUs</a>| <a href="login.html">sign In</a>
+
+         <hr/>
+         <h2>Students for information technology</h2>
+        <table>
+
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>contactno </th>
+                </tr>
+            <tr>
+                <td>Sanika</td>
+                <td>kulkarni</td>
+                <td>9503046227</td>
+            </tr>
+
+            <tr>
+                <td>Sejal</td>
+                <td>kulkarni</td>
+                <td>9503046227</td>
+                </tr>
+
+                <tr>
+                    <td>Sanika</td>
+                    <td>kulkarni</td>
+                    <td>9503046227</td>
+                    </tr>
+        </table>
+
+
+    </body>
+</html>

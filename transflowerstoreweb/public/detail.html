@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transflower web</title>
+    </head>
+
+    <body>
+        <h1>Flower details</h1>
+        
+        <a href="/">Home</a>| <a href="/about.html">AboutUs</a> | <a href="/contact.html">ContactUs</a>| <a href="login.html">sign In</a>
+        <hr/>
+
+        <input id="user" type="text" value="sanika kulkarni"/>
+        <input id="Location" type="text" value="pune"/>
+        <button onclick="onButtonClick()"> show data </button>
+       <hr/>
+
+        <p id="parauser">Starting information </p>
+        <p id="paraLocation ">Starting information </p>
+       
+       <script>
+            var onButtonClick=function(){
+                var txtuser=document.getElementById("user");
+                var datauser=txtuser.value;
+
+                var txtLocation = document.getElementById("Location");
+                var dataLocation=txtLocation.value;
+
+                var elementuser= document.getElementById("parauser");
+                elementuser.innerHTML=datauser; 
+
+                var elementLocation= document.getElementById("paraLocation");
+                elementLocation.innerHTML=dataLocation;
+            }
+            </script>
+
+    </body>
+</html>
